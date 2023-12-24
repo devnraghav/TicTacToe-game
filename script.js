@@ -1,1 +1,1 @@
-console.log("Hello world sssfdwfsfwfwfew!"); // cool script.
+console.log("Hello test"); // cool script.
