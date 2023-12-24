@@ -4,16 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game</title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
     <header>
-        <h1>TIC TAC TOE</h1>
+        <h1 style="text-align: center;">❌ TIC TAC TOE ⭕</h1>
     </header>
 
     <main>
+        <button id="reset-btn">Restart Game</button>
+
         <section class="platform">
-            <button>Start Game</button>
+
+            <div class="game-cell" cell-idx="0"></div>
+            <div class="game-cell" cell-idx="1"></div>
+            <div class="game-cell" cell-idx="2"></div>
+
+            <div class="game-cell" cell-idx="3"></div>
+            <div class="game-cell" cell-idx="4"></div>
+            <div class="game-cell" cell-idx="5"></div>
+
+            <div class="game-cell" cell-idx="6"></div>
+            <div class="game-cell" cell-idx="7"></div>
+            <div class="game-cell" cell-idx="8"></div>
+
         </section>
+
+        <h1 id="status"></h1>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>

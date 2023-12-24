@@ -1,3 +1,3 @@
-# hey welcome to my first git project!
+# A simple TIC TAC TOE game using some HTML,CSS and JavaScript.
 
-Hey
+Thanks to bro code on YT :heart:
