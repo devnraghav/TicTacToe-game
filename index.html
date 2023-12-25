@@ -3,18 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game</title>
+    <title>TIC TAC TOE</title>
     <link rel="stylesheet" href="styles.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0d184a2536.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <h1 style="text-align: center;">❌ TIC TAC TOE ⭕</h1>
     </header>
-
     <main>
-        <button id="reset-btn">Restart Game</button>
-
+        <form action="" id="choose-player">
+            <label for="player">Choose Your Player [NOT WORKING]</label>
+            <input type="radio" name="player" value="X" required> X
+            <input type="radio" name="player" value="O" required> O
+            <input type="submit" value="Select">
+        </form>
+        <h1 id="status"></h1>
         <section class="platform">
 
             <div class="game-cell" cell-idx="0"></div>
@@ -30,8 +35,7 @@
             <div class="game-cell" cell-idx="8"></div>
 
         </section>
-
-        <h1 id="status"></h1>
+        <button id="reset-btn"><i class="fa-solid fa-rotate-right"></i> Restart</button>
     </main>
     <script src="script.js"></script>
 </body>
